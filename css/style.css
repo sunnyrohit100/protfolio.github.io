@@ -1,0 +1,130 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#ffff;
+    --ternary:#898989;
+    --light:#F2F2F2;
+ }
+ body{
+     font-family: 'poppins',sans-serif;
+ }
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     -webkit-font-smotthing:antialiased;
+ }
+ header{
+     background-color: var(--dark);
+     height: 800px;
+     clip-path: polygon(0 0, 100% 0,100% 100%,70% 80%,0 100% );
+     
+ }
+ .container{
+     max-width: 1152px;
+     padding: 0 15px;
+     margin: 0 auto;
+ }
+ header nav .left a{
+     color: var(--pure);
+     text-decoration: none;
+     margin-right: 2rem;
+     text-transform: uppercase;
+     transition: all 2s ease;
+     -webkit-transition:all 2s ease;
+     -moz-transition: all 2s ease;
+     -ms-transition:all 2s ease;
+     -o-transition: all 2s ease;
+ }
+ header nav .left a:hover{
+     color: var(--primary);
+ }
+ header nav{
+     padding: 2rem 0;
+
+ }
+ header nav .branding{
+     margin-right: 3rem;
+
+ }
+ header nav .right a{
+     margin-right: 10rem;
+ }
+ .hero{
+     padding:3rem 0;
+ }
+ .hero .left img{
+     width: 500px;
+
+ }
+ .hero .right{
+     color: var(--pure);
+ }
+ .hero .right h6{
+     font-size:1.6rem;
+     text-transform:uppercase;
+     color: var(--primary);
+     margin-bottom: 0.5rem;
+ }
+ .hero .right h1{
+     font-size: 4rem;
+     font-weight: 100;
+     line-height: 1.2;
+     margin-bottom: 0.7rem;
+ }
+ .hero .right h1 span{
+     color: var(--primary);
+ }
+ .hero .right p{
+     line-height: 1.9;
+     margin-bottom: 1.4rem;
+ }
+ .hero .right p span{
+     color: var(--primary);
+ }
+.branding img{
+    height: 70px;
+    width: 200px;
+}
+section{
+    padding: 6rem 0;
+}
+.about .container .div img{
+    width: 500px;
+}
+section img{
+    width: 500px;
+}
+section .about .about-me-img{
+    height: 450px;
+    width: 500px;
+}
+section .about .facebook{
+    height:15px;
+    width: 30px;
+}
+section .about .insta{
+    height:15px;
+    width: 30px;
+}
+section .about .youtube{
+    height:15px;
+    width: 30px;
+}
+section .about .github{
+    height:15px;
+    width: 30px;
+}
+section .about .gmail{
+    height:15px;
+    width: 30px;
+}
+section .about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section .about h1 span{
+    color: var(--primary);
+}
